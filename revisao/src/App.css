@@ -1,0 +1,26 @@
+.card{
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  border: 1px solid #ccc ;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  background-color: #ccc;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+.imagem{
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+
+.titulo{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
